@@ -1,0 +1,57 @@
+.banner{
+
+    position: relative;
+    background-image: url("../img/banner.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25%;
+    z-index: 1;
+
+}
+
+.banner2{
+    position: relative;
+    background-image: url("../img/familia.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25%;
+}
+
+.banner3{
+    position: relative;
+    background-image: url("../img/consulta.webp");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25%;
+}
+
+.banner::after{
+    content: "";
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+
+
+}
+
+.menu{
+    background-color: #daa1f1;
+}
+
+.fondo{
+    background-color: #e5e5e5;
+}
+.fondoabajo{
+    background-color:#daa1f1;
+}
+.textosura{
+    color:  #daa1f1;
+}
